@@ -1,0 +1,238 @@
+body {
+font-family: 'Segoe UI', sans-serif;
+background-color: #470501;
+color: #4b2e2e;
+}
+
+.navbar {
+box-shadow: 0 2px 5px rgba(108, 3, 3, 0.708);
+background-color: #470501;
+color: #F7F6E4;
+padding-bottom: 15px;
+}
+
+.navbar a{
+text-decoration: none;
+}
+
+.navbar-brand{
+color: #F7F6E4;
+font-size: 1.3rem;
+}
+
+.nav-link{
+text-align: center;
+display: inline-block;
+padding: 15px 40px;
+cursor: pointer;
+letter-spacing: 2px;
+position:relative;
+overflow:hidden;
+margin: 0 20px;
+color: #F7F6E4;
+transition: color 0.3s;
+}
+
+.nav-link:before {
+content: "";
+position: absolute;
+width: 0;
+background : #F7F6E4;
+left: 45%;
+height: 2px;
+bottom: 0;
+transition: all .3s;
+opacity: 0.7;
+}
+
+.nav-link:hover:before {
+width: 100%;
+left:0;
+}
+
+.inicio {
+background-image: url('../Assets/Your\ Name\ wallpaper.jpg');
+background-size: cover;
+background-position: center;
+height: 100vh;
+color: #F7F6E4;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+.inicio h1 {
+font-size: 3rem;
+font-weight: bold;
+text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+
+.benefit-icon{
+    width: 2.7rem;
+    height: 2.7rem;
+}
+
+.benefit-icons{
+    width: 2.9rem;
+    height: 2.9rem;
+}
+
+.row{
+text-align: center;
+align-items: center;
+}
+
+.btn-contacto {
+align-items: center;
+appearance: none;
+border-radius: 4px;
+border-style: none;
+box-shadow: rgba(221, 14, 14, 0.562) 0 3px 1px -2px,rgba(113, 8, 8, 0.14) 0 2px 2px 0,rgba(0, 0, 0, .12) 0 1px 5px 0;
+box-sizing: border-box;
+color: #F7F6E4;
+cursor: pointer;
+display: inline-flex;
+font-family: Roboto,sans-serif;
+font-size: .875rem;
+font-weight: 500;
+height: 36px;
+justify-content: center;
+letter-spacing: .0892857em;
+line-height: normal;
+min-width: 64px;
+outline: none;
+overflow: visible;
+padding: 0 16px;
+position: relative;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1);
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+vertical-align: middle;
+will-change: transform,opacity;
+}
+
+.btn-contacto:hover {
+box-shadow: rgba(114, 3, 3, 0.553) 0 2px 4px -1px, rgba(120, 6, 6, 0.58) 0 4px 5px 0, rgba(103, 5, 5, 0.53) 0 1px 10px 0;
+}
+
+.btn-contacto:disabled {
+background-color: rgba(154, 1, 1, 0.678);
+box-shadow: rgba(173, 3, 3, 0.749) 0 0 0 0, rgba(156, 3, 3, 0.676) 0 0 0 0, rgba(203, 29, 29, 0.562) 0 0 0 0;
+color: rgba(0, 0, 0, .37);
+cursor: default;
+pointer-events: none;
+}
+
+.btn-contacto:not(:disabled) {
+background-color: #5c0401;
+}
+
+.btn-contacto:focus {
+box-shadow: rgba(114, 3, 3, 0.553) 0 2px 4px -1px, rgba(120, 6, 6, 0.58) 0 4px 5px 0, rgba(103, 5, 5, 0.53) 0 1px 10px 0;
+}
+
+.btn-contacto:active {
+box-shadow: rgba(114, 3, 3, 0.553) 0 2px 4px -1px, rgba(120, 6, 6, 0.58) 0 4px 5px 0, rgba(103, 5, 5, 0.53) 0 1px 10px 0;
+background: #bc1007;
+}
+
+.section {
+padding: 60px 15px;
+color: #F7F6E4;
+}
+
+.mb-1{
+color: #465c30;
+font-size: 2.6rem;
+}
+
+.mb-4{
+font-size:2.6rem;
+}
+.mb-5{
+color: #607848;
+}
+
+.benefit-icon {
+font-size: 40px;
+margin-bottom: 15px;
+}
+
+.img-correo{
+    width: 18px;
+}
+
+.btn-whatsapp {
+background-color: #607848;
+color:#F7F6E4;
+border: 0 solid #e2e8f0;
+border-radius: 1.5rem;
+box-sizing: border-box;
+cursor: pointer;
+display: inline-block;
+font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+font-size: 1.1rem;
+font-weight: 600;
+line-height: 1;
+padding: 1rem 1.6rem;
+text-align: center;
+text-decoration: none #0d172a solid;
+text-decoration-thickness: auto;
+transition: all .1s cubic-bezier(.4, 0, .2, 1);
+box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+}
+
+.btn-whatsapp:hover {
+background-color: #789048;
+color: #F7F6E4;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+footer {
+background-color: #607848;
+color: #F7F6E4;
+padding: 30px 0;
+}
+
+/*--- RESPONSIVE ---*/
+@media (max-width: 768px) {
+.navbar .container {
+flex-direction: column;
+align-items: flex-start;
+}
+
+.navbar-brand {
+margin-bottom: 10px;
+}
+
+.navbar div {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width: 100%;
+text-align: center;
+}
+
+.nav-link {
+padding: 10px 15px;
+margin: 5px;
+flex: 1 1 100%; /* que se distribuyan en varias líneas */
+text-align: center;
+}
+
+.btn-whatsapp {
+font-size: 1.125rem;
+padding: 1rem 2rem;
+}
+}
