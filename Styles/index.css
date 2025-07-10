@@ -9,6 +9,11 @@ box-shadow: 0 2px 5px rgba(108, 3, 3, 0.708);
 background-color: #470501;
 color: #F7F6E4;
 padding-bottom: 15px;
+position: fixed;
+top: 0;
+width: 100%;
+transition: top 0.3s ease-in-out;
+z-index: 999;
 }
 
 .navbar a{
