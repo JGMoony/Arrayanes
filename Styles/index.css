@@ -166,8 +166,10 @@ color: #607848;
 }
 
 .img-vino{
-width: 800px;
-height: 1000px;
+width: 20rem;
+height: 25rem;
+object-fit: cover;
+border-radius: 1rem;
 }
 
 .img-vino:hover{
@@ -178,7 +180,7 @@ color: rgba(0, 0, 17, 0);
 }
 
 .img-correo{
-    width: 18px;
+width: 18px;
 }
 
 .btn-whatsapp {
@@ -245,8 +247,20 @@ flex: 1 1 100%;
 text-align: center;
 }
 
+.img-vino {
+width: 14rem;
+height: 18rem;
+}
+
 .btn-whatsapp {
 font-size: 1.125rem;
 padding: 1rem 2rem;
+}
+}
+
+@media (max-width: 480px) {
+.img-vino {
+width: 100%;
+height: auto;
 }
 }
