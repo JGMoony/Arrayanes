@@ -163,6 +163,16 @@ font-size: 40px;
 margin-bottom: 15px;
 }
 
+@keyframes img-vino {
+0% { transform: scale(1); }
+50% { transform: scale(1.2); }
+100% { transform: scale(1); }
+}
+
+.img-vino {
+animation: pulse 2s infinite;
+}
+
 .img-correo{
     width: 18px;
 }
@@ -227,7 +237,7 @@ text-align: center;
 .nav-link {
 padding: 10px 15px;
 margin: 5px;
-flex: 1 1 100%; /* que se distribuyan en varias líneas */
+flex: 1 1 100%;
 text-align: center;
 }
 
