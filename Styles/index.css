@@ -69,13 +69,14 @@ text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
 }
 
 .benefit-icon{
-    width: 2.7rem;
-    height: 2.7rem;
+width: 2.7rem;
+height: 2.7rem;
 }
 
 .benefit-icons{
-    width: 2.9rem;
-    height: 2.9rem;
+margin-top: 20px;
+width: 2.9rem;
+height: 2.9rem;
 }
 
 .row{
@@ -154,23 +155,21 @@ font-size: 2.6rem;
 .mb-4{
 font-size:2.6rem;
 }
+
 .mb-5{
 color: #607848;
 }
 
-.benefit-icon {
-font-size: 40px;
-margin-bottom: 15px;
+.img-vino{
+width: 80px;
+height: 100px;
 }
 
-@keyframes img-vino {
-0% { transform: scale(1); }
-50% { transform: scale(1.2); }
-100% { transform: scale(1); }
-}
-
-.img-vino {
-animation: pulse 2s infinite;
+.img-vino:hover{
+box-shadow: 0 0.25em 0.25em -0.1em rgba(0, 0, 17, 0);
+transform: translateY(-0.25em);
+border-color: #490202;
+color: rgba(0, 0, 17, 0);
 }
 
 .img-correo{
