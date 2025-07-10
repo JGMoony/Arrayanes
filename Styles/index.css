@@ -159,6 +159,7 @@ font-size: 2.6rem;
 
 .mb-4{
 font-size:2.6rem;
+padding-bottom: 1rem;
 }
 
 .mb-5{
@@ -169,8 +170,7 @@ color: #607848;
 width: 20rem;
 height: 25rem;
 object-fit: cover;
-border-radius: 1.3rem;
-margin-right: 1rem;
+border-radius: 1.7rem;
 }
 
 .img-vino:hover{
