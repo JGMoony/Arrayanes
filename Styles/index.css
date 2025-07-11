@@ -54,6 +54,13 @@ opacity: 0.7;
 width: 100%;
 left:0;
 }
+.navbar-collapse {
+background-color: #470501;
+}
+
+.navbar-nav .nav-link {
+color: white !important;
+}
 
 .inicio {
 background-image: url('../Assets/Portada.JPG');
