@@ -6,9 +6,14 @@ color: #4b2e2e;
 
 .navbar {
 box-shadow: 0 2px 5px rgba(108, 3, 3, 0.708);
-background-color: #470501;
+background-color: #470501 !important;
 color: #F7F6E4;
 padding-bottom: 15px;
+position: fixed;
+top: 0;
+width: 100%;
+transition: top 0.3s ease-in-out;
+z-index: 999;
 }
 
 .navbar a{
@@ -48,4 +53,26 @@ opacity: 0.7;
 .nav-link:hover:before {
 width: 100%;
 left:0;
+}
+.navbar-collapse {
+background-color: #470501 !important;
+}
+
+@keyframes fadeSlideDown {
+0% {
+opacity: 0;
+transform: translateY(-10px);
+}
+100% {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+.navbar-collapse.show {
+animation: fadeSlideDown 0.4s ease-out;
+}
+
+.navbar-nav .nav-link {
+color: white !important;
 }
